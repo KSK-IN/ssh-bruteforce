@@ -54,10 +54,10 @@ options:
   -u USERNAME, --username USERNAME
                         Enter the username
   -U USERNAME, --Username USERNAME
-                        Enter the username wordlist
+                        Enter the path of username wordlist
   -l PASSWORD, --password PASSWORD
                         Enter the password
   -P PASSWORD, --Password PASSWORD
-                        Enter the password wordlist path
+                        Enter the path of password wordlist 
 
 ```
