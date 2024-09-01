@@ -1,4 +1,4 @@
-# ssh-bruteforce
+# SSH-Bruteforce
 This tools used for ssh-bruteforce in during pentesting. This tool os required python and following modules.A simple Python script that performs brute-force attacks on SSH servers to test the strength of passwords. This tool is intended for ethical hacking and security testing purposes only.
 
 **Overview:**
