@@ -27,4 +27,37 @@ pip -r install requirements.txt
 
 ```
 python3 ssh_brute.py --help
+
+  The SSH bruteforcing tool
+
+          
+            ░█▀▀░█▀▀░█░█░░░█▀▄░█▀▄░█░█░▀█▀░█▀▀░█▀▀░█▀█░█▀▄░█▀▀░█▀▀
+            ░▀▀█░▀▀█░█▀█░░░█▀▄░█▀▄░█░█░░█░░█▀▀░█▀▀░█░█░█▀▄░█░░░█▀▀
+            ░▀▀▀░▀▀▀░▀░▀░░░▀▀░░▀░▀░▀▀▀░░▀░░▀▀▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀
+
+
+          
+
+#Help of the command
+1. sshbrute.py -t [ip] -p [port] -u [username] or -U [username-wordlist] -l [password] or -P [password-wordlist]
+
+usage: ssh_brute.py [-h] -t TARGET [-p PORT] [-u USERNAME] [-U USERNAME]
+                    [-l PASSWORD] [-P PASSWORD]
+
+SSH brute forceing Tool
+
+options:
+  -h, --help            show this help message and exit
+  -t TARGET, --target TARGET
+                        Enter the target ip or name
+  -p PORT, --port PORT  Port number
+  -u USERNAME, --username USERNAME
+                        Enter the username
+  -U USERNAME, --Username USERNAME
+                        Enter the username wordlist
+  -l PASSWORD, --password PASSWORD
+                        Enter the password
+  -P PASSWORD, --Password PASSWORD
+                        Enter the password wordlist path
+
 ```
