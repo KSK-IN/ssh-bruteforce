@@ -16,7 +16,7 @@ This script attempts to enumerate username's and password's to ssh service. Itâ€
 1.Clone the repositry and move to the directory using follwoing command.
 
 ```
-git clone
+git clone https://github.com/KSK-IN/ssh-bruteforce.git
 cd ssh-bruteforce.py
 ```
 2. install requirement follwoing command.
